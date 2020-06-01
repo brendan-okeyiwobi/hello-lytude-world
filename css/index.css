@@ -1,0 +1,224 @@
+{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+
+/*copyright 2019-2020 Okey-Iwobi Music - All Rights reserved*/
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../wallpaper.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: -120%;
+    margin-right: 0.01px;
+    font-family: sans-serif;
+    display: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 5px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+    border-radius: 10px 10px 10px 10px;
+}
+
+ul li a:hover{
+    background-color: #000;
+    color: #fff000;
+    box-shadow: 0 25px 40px rgba(0,0,0,1);
+}
+
+ul li.active a{
+    background-color: #000;
+    color: #fff000;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 25px 40px rgba(0,0,0,1);
+}
+
+.logo img{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-left: 25px;
+    margin-top: 60px;
+}
+.main{
+    max-width: 1200px
+    margin: auto;
+}
+
+.title{
+    top: 30%;
+    left: 52.5%;
+    transform: translate(-50%,-50%);
+    margin-right: 0%;
+    color: #fff;
+    font-size: 40px;
+}
+
+
+.button{
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 290px;
+    height: 100px;
+    font-size: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.btn:hover{
+    background-color: #FFFF00;
+    color: #000;
+}
+
+.pro1 img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: 300px;
+    margin-left: -45px;
+}
+
+.pro3 img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: 300px;
+    margin-left: 0px;
+}
+
+.pro4 img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: 300px;
+    margin-left: 6px;
+}
+
+.pro5 img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: 300px;
+    margin-left: 6px;
+    overflow: hidden;
+}
+
+.pro6 img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: 300px;
+    margin-left: 6px;
+    overflow: hidden;
+}
+
+.pro7 img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: 300px;
+    margin-left: 6px;
+    overflow: hidden;
+}
+.pro5 img {
+  transition: transform .5s ease;
+}
+.pro5:hover img {
+  transform: scale(1.5);
+}
+
+.pro4 img {
+  transition: transform .5s ease;
+}
+.pro4:hover img {
+  transform: scale(1.5);
+}
+
+.pro3 img {
+  transition: transform .5s ease;
+}
+.pro3:hover img {
+  transform: scale(1.5);
+}
+
+.pro2 img {
+  transition: transform .5s ease;
+}
+.pro2:hover img {
+  transform: scale(1.5);
+}
+
+.pro1 img {
+  transition: transform .5s ease;
+}
+.pro1:hover img {
+  transform: scale(1.5);
+}
+
+
+.pro6 img {
+  transition: transform .5s ease;
+}
+.pro6:hover img {
+  transform: scale(1.5);
+}
+
+.pro7 img {
+  transition: transform .5s ease;
+}
+.pro7:hover img {
+  transform: scale(1.5);
+}
+
+body {
+padding: 0;
+margin: 0;
+}
+
+.logo2 img{
+       float: left;
+    width: 250px;
+    height: 40px;
+    margin-left: 0.5%;
+    margin-top: 1.5%;
+    display: none;
+}
+
+.pctitle{
+    display: none;
+}
+
+.viewsupport h1{
+    display: none;
+}
+
+.copyright{
+    margin-left: 10%;
+    float: left;
+    margin-top: 50%;
+    color: #fff;
+}
